@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
   }
 
   // Keep this in sync with the manifest.
-  private val isRequestingFineLocation = true
+  private val isRequestingFineLocation = false
 
   @SuppressLint("VisibleForTests")
   private lateinit var fusedLocationClient: FusedLocationProviderClient
